@@ -12,6 +12,13 @@ Our password manager outperform lots of current password manager in used
 
 2. Since **passwords are stored locally in users' mobile phone**, we do not need to trust any third party server. Moreover, we utilize user fingerprint for authentication. As long as the users' mobile phones are secure, our password manager may maintain high security level.
 
+## Installation
+
+1. Install extension directory to chromnium-based browser, switch developer mode on, simply upload the directory to chrome://extensions
+
+2. Install the ios directory to users iphone
+
+
 ## Workflow Illustration
 
 ### ID Registration
@@ -34,9 +41,6 @@ Our password manager outperform lots of current password manager in used
 3. High Security level
     - The password transferred from mobile phone to webpages is protected by TLS protocol and One-time pad, and one-time pad is proved to be perfectly secure
     - The key delivery for One-time pad is through the QR code scanning process, and attackers can hardly notice the OTP key.
-
-## Demonstration
-
 
 ## workflow
 
